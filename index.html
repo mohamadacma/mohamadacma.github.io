@@ -4,28 +4,53 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
 <style>
-      /* GLOBAL STYLES */
-      a {
-        color: red;
-      }
+  /* GLOBAL STYLES */
+  a {
+    color: #f00;
+  }
+  body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+h1 {
+ font-size: 2em  ;
+  margin-top: 0;
+}
+  
 
-      /* SOCIAL STYLES */
-      .social-link {
-        color: blue;
-      }
+  /* SOCIAL STYLES */
+  .social-link {
+    background: rgba(150, 150, 150, 0.5);
+    color: blue;
+  }
+  /* HERO STYLES */
+.full-hero {
+  background-color: #c7dbfc;
+  height: 50vw;
+  width: 75vw ;
+ 
+}
 
-      /* BIO STYLES */
-      div .bio-box {
-        border: 1px solid black;
-      }
-      .bio-copy a {
-        color: green;
-      }
-      div {
-        border: 1px solid green
-      }
-    </style>
+  /* BIO STYLES */
+ 
+  .bio-box {
+    border: 1px solid black;
+    font-size: 1em;
+    width: 50%;
+  }
+  .bio-box h3 {
+    font-size: 1.5em;
+  }
+  .bio-copy {
+    font-size: 1em;
+  }
+  .bio-copy a {
+    color: green;
+  }
+</style>
   <body>
+    <div class="full-hero hero-home">
     <h1>I'm an h1</h1>
     <ul>
       <li>
@@ -38,6 +63,7 @@
         <a>Link</a>
       </li>
     </ul>
+    </div>
     <h2>I'm an h2</h2>
      <div class="bio-box">
       <h3>Michael Hartl</h3>
